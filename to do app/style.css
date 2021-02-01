@@ -1,0 +1,62 @@
+h2{
+    text-align: center;
+    color: aquamarine;
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/6b/d6/bb/6bd6bb2bfa5e4463484a1499cc94dcae.png");
+    text-align: center;
+    
+}
+.box{
+    text-align: center;
+}
+#todo-item{
+border-radius: 15px;
+width: auto;
+padding-left: 12px;
+border: none;
+box-shadow: -2px -2px 10px tomato;
+}
+.card{
+    margin-left: 600px;
+    margin-top: 300px;
+    box-shadow: 3px 3px 4px grey;
+    background-color: bisque !important;
+    width: 500px !important;
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+
+
+li{
+    color: royalblue;
+    list-style-type: decimal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-top: 8px;
+
+}
+#addbtn{
+    width: 15%;
+  
+    border-radius: 25px;
+    margin-top: 8px;
+    box-shadow: 2px 2px 7px gray;
+
+}
+.fa-trash{
+    color: darkslategray;
+    font-size: 22px;
+    position: absolute;
+    left: 460px;
+}
+.fa-eraser{
+    
+    position: fixed;
+    left: 1050px;
+    bottom: 370px;
+    color: tomato;
+    font-size: xx-large;
+    
+}
